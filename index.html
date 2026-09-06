@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jéssica Sapanhos, Psicóloga. Conteúdos sobre saúde mental, autoconhecimento e bem-estar emocional.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Jéssica Sapanhos">
+  <meta name="theme-color" content="#6f5f79">
+  <link rel="canonical" href="https://SEU-USUARIO.github.io/SEU-REPOSITORIO/">
+
+  <title>Jéssica Sapanhos | Psicóloga</title>
+
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jéssica Sapanhos | Psicóloga">
+  <meta property="og:description" content="Conteúdos sobre saúde mental, autoconhecimento e bem-estar emocional.">
+  <meta property="og:url" content="https://SEU-USUARIO.github.io/SEU-REPOSITORIO/">
+  <meta property="og:site_name" content="Jéssica Sapanhos | Psicóloga">
+  <meta property="og:image" content="https://SEU-USUARIO.github.io/SEU-REPOSITORIO/assets/og-image.jpg">
+  <meta property="og:image:alt" content="Jéssica Sapanhos, Psicóloga">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jéssica Sapanhos | Psicóloga">
+  <meta name="twitter:description" content="Conteúdos sobre saúde mental, autoconhecimento e bem-estar emocional.">
+  <meta name="twitter:image" content="https://SEU-USUARIO.github.io/SEU-REPOSITORIO/assets/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jéssica Sapanhos",
+    "jobTitle": "Psicóloga",
+    "url": "https://SEU-USUARIO.github.io/SEU-REPOSITORIO/",
+    "sameAs": [
+      "https://www.instagram.com/SEU_INSTAGRAM/"
+    ],
+    "description": "Psicóloga com conteúdos sobre saúde mental, autoconhecimento e bem-estar emocional.",
+    "knowsAbout": ["Psicologia", "Saúde mental", "Autoconhecimento", "Bem-estar emocional"]
+  }
+  </script>
+
+  <style>
+    :root {
+      --ink: #2d2930;
+      --muted: #6d6670;
+      --paper: #fcfaf9;
+      --surface: #ffffff;
+      --accent: #6f5f79;
+      --accent-dark: #51445b;
+      --accent-soft: #eee8f0;
+      --line: #e9e2e7;
+      --shadow: 0 18px 46px rgba(44, 31, 49, .09);
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    .container { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+    }
+    .skip-link:focus { left: 16px; top: 16px; z-index: 999; background: #fff; padding: 10px 14px; border-radius: 10px; }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(252, 250, 249, .92);
+      border-bottom: 1px solid rgba(233, 226, 231, .85);
+      backdrop-filter: blur(12px);
+    }
+    .nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { text-decoration: none; font-weight: 750; letter-spacing: -.02em; }
+    .brand span { color: var(--accent); }
+    .nav-links { display: flex; gap: 20px; align-items: center; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: .94rem; }
+    .nav-links a:hover, .nav-links a:focus { color: var(--accent-dark); }
+
+    .hero {
+      padding: 88px 0 72px;
+      background: radial-gradient(circle at 80% 15%, #e9dfed 0, transparent 34%), linear-gradient(145deg, #f9f5f7 0%, #fcfaf9 60%);
+    }
+    .hero-grid { display: grid; grid-template-columns: 1.35fr .65fr; align-items: center; gap: 48px; }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
+    h1, h2, h3 { line-height: 1.15; margin: 0; letter-spacing: -.035em; }
+    h1 { margin-top: 14px; font-size: clamp(2.5rem, 6vw, 4.8rem); max-width: 760px; }
+    .hero p { max-width: 650px; color: var(--muted); font-size: 1.15rem; margin: 24px 0 32px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 20px; border-radius: 999px; font-weight: 700; text-decoration: none; transition: .2s ease; }
+    .button.primary { background: var(--accent); color: #fff; }
+    .button.primary:hover { background: var(--accent-dark); transform: translateY(-1px); }
+    .button.secondary { border: 1px solid var(--line); background: rgba(255,255,255,.65); color: var(--accent-dark); }
+    .button.secondary:hover { background: #fff; }
+    .hero-card { padding: 28px; border-radius: var(--radius); background: rgba(255,255,255,.76); border: 1px solid rgba(255,255,255,.8); box-shadow: var(--shadow); }
+    .hero-card strong { display: block; font-size: 1.35rem; margin-bottom: 12px; }
+    .hero-card p { margin: 0; font-size: 1rem; }
+
+    section { padding: 84px 0; }
+    .section-title { max-width: 700px; margin-bottom: 36px; }
+    .section-title h2 { font-size: clamp(2rem, 4vw, 3rem); }
+    .section-title p { color: var(--muted); margin: 16px 0 0; }
+    .about { background: var(--surface); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+    .card { padding: 30px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+    .card h3 { font-size: 1.25rem; margin-bottom: 12px; }
+    .card p { margin: 0; color: var(--muted); }
+
+    .feed { background: var(--accent-soft); }
+    .feed-wrapper { padding: clamp(18px, 4vw, 40px); background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .feed-note { margin: 0 0 24px; color: var(--muted); }
+    .instagram-placeholder { padding: 34px 20px; text-align: center; border: 2px dashed #d7cadc; border-radius: 16px; background: #fcfafc; color: var(--muted); }
+    .instagram-placeholder code { display: block; margin-top: 14px; padding: 12px; overflow-x: auto; text-align: left; border-radius: 10px; background: #f2edf4; color: #493a52; font-size: .82rem; }
+
+    .contact { text-align: center; }
+    .contact-box { padding: clamp(30px, 6vw, 64px); border-radius: var(--radius); background: var(--accent-dark); color: #fff; }
+    .contact-box h2 { font-size: clamp(2rem, 4vw, 3.1rem); }
+    .contact-box p { max-width: 650px; margin: 18px auto 28px; color: #ece7ef; }
+    .contact-box .button { background: #fff; color: var(--accent-dark); }
+
+    footer { padding: 26px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+    .footer-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+
+    @media (max-width: 760px) {
+      .nav-links { display: none; }
+      .hero { padding: 68px 0 56px; }
+      .hero-grid, .about-grid { grid-template-columns: 1fr; gap: 24px; }
+      section { padding: 64px 0; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+  <header>
+    <nav class="container nav" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">Jéssica <span>Sapanhos</span></a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Psicóloga</div>
+          <h1 id="titulo-principal">Um espaço para acolher, compreender e cuidar de si.</h1>
+          <p>Conteúdos sobre saúde mental, autoconhecimento e bem-estar emocional para tornar a psicologia mais próxima do seu dia a dia.</p>
+          <div class="actions">
+            <a class="button primary" href="#instagram">Ver conteúdos no Instagram</a>
+            <a class="button secondary" href="#sobre">Conheça meu trabalho</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Apresentação">
+          <strong>Jéssica Sapanhos</strong>
+          <p>Psicóloga dedicada a compartilhar reflexões e informações que favoreçam relações mais conscientes consigo e com o mundo.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="sobre-titulo">Psicologia para a vida real</h2>
+          <p>Informação responsável, reflexões práticas e um convite gentil para olhar com mais atenção para a sua experiência emocional.</p>
+        </div>
+        <div class="about-grid">
+          <article class="card">
+            <h3>Saúde mental</h3>
+            <p>Conteúdos que ajudam a compreender emoções, hábitos e desafios cotidianos com mais clareza e cuidado.</p>
+          </article>
+          <article class="card">
+            <h3>Autoconhecimento</h3>
+            <p>Reflexões para reconhecer padrões, valores e necessidades, respeitando seu tempo e sua individualidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feed" id="instagram" aria-labelledby="instagram-titulo">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="instagram-titulo">Conteúdos recentes</h2>
+          <p>Acompanhe as publicações mais recentes de Jéssica Sapanhos no Instagram.</p>
+        </div>
+        <div class="feed-wrapper">
+          <p class="feed-note">O feed abaixo será atualizado automaticamente pelo SociableKIT após a integração.</p>
+
+          <!--
+            INTEGRAÇÃO SOCIABLEKIT
+            1. Crie o widget Instagram Feed no SociableKIT.
+            2. Copie o código de incorporação fornecido pela plataforma.
+            3. Apague este bloco "instagram-placeholder" e cole o código exatamente neste local.
+          -->
+          <div class="instagram-placeholder">
+            <strong>Feed do Instagram em breve</strong>
+            <p>Substitua este bloco pelo código de incorporação do SociableKIT.</p>
+            <code>&lt;!-- Cole aqui o código embed gerado pelo SociableKIT --&gt;</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato" aria-labelledby="contato-titulo">
+      <div class="container">
+        <div class="contact-box">
+          <h2 id="contato-titulo">Vamos nos conectar?</h2>
+          <p>Acompanhe os conteúdos no Instagram para receber novas reflexões sobre psicologia, saúde mental e bem-estar emocional.</p>
+          <a class="button" href="https://www.instagram.com/SEU_INSTAGRAM/" target="_blank" rel="me noopener noreferrer">Acessar Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© <span id="ano"></span> Jéssica Sapanhos. Todos os direitos reservados.</span>
+      <span>Psicóloga</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
